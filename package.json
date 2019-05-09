@@ -1,0 +1,17 @@
+{
+  "name": "@jarvisniu/vue-ua",
+  "version": "0.1.0",
+  "description": "Vue plugin to detect web environment by user agent",
+  "main": "vue-ua.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jarvisniu/vue-ua.git"
+  },
+  "keywords": ["vue", "user agent", "ua"],
+  "author": "Jarvis Niu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jarvisniu/vue-ua/issues"
+  },
+  "homepage": "https://github.com/jarvisniu/vue-ua#readme"
+}
