@@ -2,14 +2,7 @@
 import ua from '@jarvisniu/ua'
 
 function install (Vue, extend) {
-  if (typeof extend === 'function') {
-    let extensions = extend.apply(ua, ua)
-    if (typeof extensions == 'object') {
-      for (let k in extensions) {
-        if (ua[k] == null) ua[k] = extensions[k]
-      }
-    }
-  }
+  if (typeof extend === 'function') extend.apply(ua, ua)
   Vue.prototype.$ua = ua
 }
 

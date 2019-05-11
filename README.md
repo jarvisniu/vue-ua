@@ -21,9 +21,7 @@ Vue.use(VueUA)
 
 // with extending
 Vue.use(VueUA, function (ua) {
-  return {
-    isSeehome: ua.includes('Seehome/'),
-  }
+  ua.isOpera = ua.value.includes('OPR/')
 })
 ```
 
@@ -36,7 +34,7 @@ Use in template:
 Use in script:
 
 ```js
-Vue.prototype.$ua.isWindows
+this.$ua.isWindows
 ```
 
 ## License
