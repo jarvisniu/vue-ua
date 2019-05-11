@@ -1,0 +1,12 @@
+# os
+.DS_Store
+
+# editors
+.idea/
+.vscode/
+
+# project
+node_modules/
+package-lock.json
+yarn.lock
+yarn-error.log
