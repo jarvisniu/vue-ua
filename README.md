@@ -16,10 +16,10 @@ Import:
 import Vue from 'vue'
 import VueUA from '@jarvisniu/vue-ua'
 
-// simple usage
+// Simple usage
 Vue.use(VueUA)
 
-// with extending
+// With extending
 Vue.use(VueUA, function (ua) {
   ua.isOpera = ua.value.includes('OPR/')
 })
@@ -35,7 +35,27 @@ Use in script:
 
 ```js
 this.$ua.isWindows
+// or
+Vue.prototype.$ua.isWindows
 ```
+
+## API
+
+- OS
+  - isWindows
+  - isMacOS
+  - isLinux
+- Kernel
+  - isChrome
+  - isFirefox
+  - isSafari
+  - isEdge
+  - isIE
+- Platform
+  - isElectron
+- In-App
+  - isWechat
+  - isAlipay
 
 ## License
 
