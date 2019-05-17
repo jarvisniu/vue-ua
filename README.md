@@ -45,6 +45,9 @@ Vue.prototype.$ua.isWindows
   - isWindows
   - isMacOS
   - isLinux
+  - isUbuntu
+  - isAndroid
+  - isIOS
 - Kernel
   - isChrome
   - isFirefox
@@ -53,6 +56,8 @@ Vue.prototype.$ua.isWindows
   - isIE
 - Platform
   - isElectron
+  - isDesktop
+  - isMobile
 - In-App
   - isWechat
   - isAlipay
